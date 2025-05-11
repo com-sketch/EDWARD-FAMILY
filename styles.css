@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* Header Section */
+header {
+    background-color: #27619b;
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-contact p {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+}
+
+.family-pictures img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#read-more-btn {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Our Family Section */
+#our-family {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.family-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.member-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Family Activities Section */
+#activities {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.member-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .family-pictures img, .gallery-images img {
+        width: 80%;
+    }
+
+    .family-members {
+        flex-direction: column;
+    }
+
+    .member-card {
+        width: 100%;
+    }
+}
